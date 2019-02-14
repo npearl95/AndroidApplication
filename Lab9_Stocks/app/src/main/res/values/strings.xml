@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stocks</string>
+    <string name="symbol">Symbol:</string>
+    <string name="last_price">Last Price:</string>
+    <string name="company_name">Company Name</string>
+    <string name="invalid_symbol">Invalid symbol</string>
+    <string name="delete">Delete</string>
+    <string name="company_name_details">Company Name</string>
+    <string name="stock_price">Stock Price</string>
+    <string name="please_enter_the_stock_symbol">Select a stock symbol: </string>
+    <string name="example">MSFT: Microsoft, FB: Facebook</string>
+    <string name="the_list_is_empty">To add a new stock: Click +</string>
+    <string name="press_on_a_stock">Click on a Stock</string>
+    <string name="new_stock">New</string>
+</resources>

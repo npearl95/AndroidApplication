@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.temple.stocks.DetailsFragment">
+
+    <LinearLayout
+        android:id="@+id/companyStock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mediumlight"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/companyNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:text="@string/press_on_a_stock"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="28dp" />
+
+        <WebView
+            android:id="@+id/StockGraph"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/StockPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Current Price: $"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="514dp" />
+
+        <TextView
+            android:id="@+id/companyStockTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="429dp" />
+        <EditText
+            android:id="@+id/OpenPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Open Price: $"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <TextView
+            android:id="@+id/companyOpenStockTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="276dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

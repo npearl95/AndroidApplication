@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bolsa de Valores</string>
+    <string name="invalid_symbol">¡Has introducido un símbolo no válido!</string>
+    <string name="delete">borrar</string>
+    <string name="please_enter_the_stock_symbol">Introduzca un símbolo de stock</string>
+    <string name="example">MSFT: Microsoft, FB: Facebook</string>
+    <string name="the_list_is_empty">Para añadir un nuevo stock: +</string>
+    <string name="press_on_a_stock">Presione en un Stock!</string>
+    <string name="symbol">Símbolo:</string>
+    <string name="last_price">Ultimo precio:</string>
+    <string name="company_name">Nombre de empresa</string>
+    <string name="company_name_details">Nombre de empresa</string>
+    <string name="stock_price">Precio de mercado</string>
+    <string name="new_stock">Nuevo</string>
+</resources>

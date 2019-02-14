@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Color Changer</string>
+
+    <string-array name="colorValues">
+
+        <item>BLUE</item>
+        <item>CYAN</item>
+        <item>GRAY</item>
+        <item>GREEN</item>
+        <item>RED</item>
+        <item>YELLOW</item>
+
+    </string-array>
+
+    <string-array name="colorNames">
+    <item>AZUL</item>
+    <item>CIAN</item>
+    <item>GRIS</item>
+    <item>VERDE</item>
+    <item>ROJO</item>
+    <item>AMARILLO</item>
+    </string-array>
+    <string name="title_activity_color_adapter">ColorAdapter</string>
+
+
+</resources>
+
+
+
